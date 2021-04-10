@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #000000;
+    background-image:  linear-gradient(30deg, #111111 12%, transparent 12.5%, transparent 87%, #111111 87.5%, #111111), linear-gradient(150deg, #111111 12%, transparent 12.5%, transparent 87%, #111111 87.5%, #111111), linear-gradient(30deg, #111111 12%, transparent 12.5%, transparent 87%, #111111 87.5%, #111111), linear-gradient(150deg, #111111 12%, transparent 12.5%, transparent 87%, #111111 87.5%, #111111), linear-gradient(60deg, #11111177 25%, transparent 25.5%, transparent 75%, #11111177 75%, #11111177), linear-gradient(60deg, #11111177 25%, transparent 25.5%, transparent 75%, #11111177 75%, #11111177);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100%;
+    opacity: 0;
+    animation-name: animateIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.logo img {
+    width: 100%;
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+}
+
+.info, .services, .contact {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    animation-name: animateIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.info {
+    animation-delay: 0.5s;
+}
+
+.services {
+    animation-delay: 1s;
+}
+
+.contact {
+    animation-delay: 1.5s;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.contact ul {
+    list-style: none;
+    justify-content: center;
+}
+
+.contact li {
+    /* width: 250px; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 0 10px;
+}
+
+.contact li a {
+    display: flex;
+    align-items: center;
+}
+
+.contact li svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 0;
+}
+
+@keyframes animateIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+  }
