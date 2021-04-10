@@ -28,7 +28,7 @@ a {
 }
 
 .logo img {
-    width: 100%;
+    width: 80%;
     display: block;
     max-width: 500px;
     margin: 0 auto;
@@ -36,7 +36,7 @@ a {
 }
 
 .info, .services, .contact {
-    width: 100%;
+    width: 80%;
     max-width: 500px;
     margin: 0 auto;
     padding: 20px 30px;
